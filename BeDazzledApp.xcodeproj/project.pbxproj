@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD682C8B2899C4E50049B6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD682C8A2899C4E50049B6B1 /* AppDelegate.swift */; };
+		BD682C8D2899C4E50049B6B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD682C8C2899C4E50049B6B1 /* SceneDelegate.swift */; };
+		BD682C8F2899C4E50049B6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD682C8E2899C4E50049B6B1 /* ViewController.swift */; };
+		BD682C922899C4E50049B6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD682C902899C4E50049B6B1 /* Main.storyboard */; };
+		BD682C952899C4E50049B6B1 /* BeDazzledApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD682C932899C4E50049B6B1 /* BeDazzledApp.xcdatamodeld */; };
+		BD682C972899C4E60049B6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD682C962899C4E60049B6B1 /* Assets.xcassets */; };
+		BD682C9A2899C4E60049B6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD682C982899C4E60049B6B1 /* LaunchScreen.storyboard */; };
+		BD682CA52899C4E60049B6B1 /* BeDazzledAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD682CA42899C4E60049B6B1 /* BeDazzledAppTests.swift */; };
+		BD682CAF2899C4E60049B6B1 /* BeDazzledAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD682CAE2899C4E60049B6B1 /* BeDazzledAppUITests.swift */; };
+		BD682CB12899C4E60049B6B1 /* BeDazzledAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD682CB02899C4E60049B6B1 /* BeDazzledAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD682CA12899C4E60049B6B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD682C7F2899C4E50049B6B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD682C862899C4E50049B6B1;
+			remoteInfo = BeDazzledApp;
+		};
+		BD682CAB2899C4E60049B6B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD682C7F2899C4E50049B6B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD682C862899C4E50049B6B1;
+			remoteInfo = BeDazzledApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD682C872899C4E50049B6B1 /* BeDazzledApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeDazzledApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD682C8A2899C4E50049B6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD682C8C2899C4E50049B6B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD682C8E2899C4E50049B6B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD682C912899C4E50049B6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD682C942899C4E50049B6B1 /* BeDazzledApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeDazzledApp.xcdatamodel; sourceTree = "<group>"; };
+		BD682C962899C4E60049B6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD682C992899C4E60049B6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD682C9B2899C4E60049B6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD682CA02899C4E60049B6B1 /* BeDazzledAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeDazzledAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD682CA42899C4E60049B6B1 /* BeDazzledAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeDazzledAppTests.swift; sourceTree = "<group>"; };
+		BD682CAA2899C4E60049B6B1 /* BeDazzledAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeDazzledAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD682CAE2899C4E60049B6B1 /* BeDazzledAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeDazzledAppUITests.swift; sourceTree = "<group>"; };
+		BD682CB02899C4E60049B6B1 /* BeDazzledAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeDazzledAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD682C842899C4E50049B6B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD682C9D2899C4E60049B6B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD682CA72899C4E60049B6B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD682C7E2899C4E50049B6B1 = {
+			isa = PBXGroup;
+			children = (
+				BD682C892899C4E50049B6B1 /* BeDazzledApp */,
+				BD682CA32899C4E60049B6B1 /* BeDazzledAppTests */,
+				BD682CAD2899C4E60049B6B1 /* BeDazzledAppUITests */,
+				BD682C882899C4E50049B6B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD682C882899C4E50049B6B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD682C872899C4E50049B6B1 /* BeDazzledApp.app */,
+				BD682CA02899C4E60049B6B1 /* BeDazzledAppTests.xctest */,
+				BD682CAA2899C4E60049B6B1 /* BeDazzledAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD682C892899C4E50049B6B1 /* BeDazzledApp */ = {
+			isa = PBXGroup;
+			children = (
+				BD682C8A2899C4E50049B6B1 /* AppDelegate.swift */,
+				BD682C8C2899C4E50049B6B1 /* SceneDelegate.swift */,
+				BD682C8E2899C4E50049B6B1 /* ViewController.swift */,
+				BD682C902899C4E50049B6B1 /* Main.storyboard */,
+				BD682C962899C4E60049B6B1 /* Assets.xcassets */,
+				BD682C982899C4E60049B6B1 /* LaunchScreen.storyboard */,
+				BD682C9B2899C4E60049B6B1 /* Info.plist */,
+				BD682C932899C4E50049B6B1 /* BeDazzledApp.xcdatamodeld */,
+			);
+			path = BeDazzledApp;
+			sourceTree = "<group>";
+		};
+		BD682CA32899C4E60049B6B1 /* BeDazzledAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD682CA42899C4E60049B6B1 /* BeDazzledAppTests.swift */,
+			);
+			path = BeDazzledAppTests;
+			sourceTree = "<group>";
+		};
+		BD682CAD2899C4E60049B6B1 /* BeDazzledAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD682CAE2899C4E60049B6B1 /* BeDazzledAppUITests.swift */,
+				BD682CB02899C4E60049B6B1 /* BeDazzledAppUITestsLaunchTests.swift */,
+			);
+			path = BeDazzledAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD682C862899C4E50049B6B1 /* BeDazzledApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD682CB42899C4E60049B6B1 /* Build configuration list for PBXNativeTarget "BeDazzledApp" */;
+			buildPhases = (
+				BD682C832899C4E50049B6B1 /* Sources */,
+				BD682C842899C4E50049B6B1 /* Frameworks */,
+				BD682C852899C4E50049B6B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeDazzledApp;
+			productName = BeDazzledApp;
+			productReference = BD682C872899C4E50049B6B1 /* BeDazzledApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD682C9F2899C4E60049B6B1 /* BeDazzledAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD682CB72899C4E60049B6B1 /* Build configuration list for PBXNativeTarget "BeDazzledAppTests" */;
+			buildPhases = (
+				BD682C9C2899C4E60049B6B1 /* Sources */,
+				BD682C9D2899C4E60049B6B1 /* Frameworks */,
+				BD682C9E2899C4E60049B6B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD682CA22899C4E60049B6B1 /* PBXTargetDependency */,
+			);
+			name = BeDazzledAppTests;
+			productName = BeDazzledAppTests;
+			productReference = BD682CA02899C4E60049B6B1 /* BeDazzledAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD682CA92899C4E60049B6B1 /* BeDazzledAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD682CBA2899C4E60049B6B1 /* Build configuration list for PBXNativeTarget "BeDazzledAppUITests" */;
+			buildPhases = (
+				BD682CA62899C4E60049B6B1 /* Sources */,
+				BD682CA72899C4E60049B6B1 /* Frameworks */,
+				BD682CA82899C4E60049B6B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD682CAC2899C4E60049B6B1 /* PBXTargetDependency */,
+			);
+			name = BeDazzledAppUITests;
+			productName = BeDazzledAppUITests;
+			productReference = BD682CAA2899C4E60049B6B1 /* BeDazzledAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD682C7F2899C4E50049B6B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BD682C862899C4E50049B6B1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BD682C9F2899C4E60049B6B1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD682C862899C4E50049B6B1;
+					};
+					BD682CA92899C4E60049B6B1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD682C862899C4E50049B6B1;
+					};
+				};
+			};
+			buildConfigurationList = BD682C822899C4E50049B6B1 /* Build configuration list for PBXProject "BeDazzledApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD682C7E2899C4E50049B6B1;
+			productRefGroup = BD682C882899C4E50049B6B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD682C862899C4E50049B6B1 /* BeDazzledApp */,
+				BD682C9F2899C4E60049B6B1 /* BeDazzledAppTests */,
+				BD682CA92899C4E60049B6B1 /* BeDazzledAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD682C852899C4E50049B6B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD682C9A2899C4E60049B6B1 /* LaunchScreen.storyboard in Resources */,
+				BD682C972899C4E60049B6B1 /* Assets.xcassets in Resources */,
+				BD682C922899C4E50049B6B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD682C9E2899C4E60049B6B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD682CA82899C4E60049B6B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD682C832899C4E50049B6B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD682C8F2899C4E50049B6B1 /* ViewController.swift in Sources */,
+				BD682C8B2899C4E50049B6B1 /* AppDelegate.swift in Sources */,
+				BD682C8D2899C4E50049B6B1 /* SceneDelegate.swift in Sources */,
+				BD682C952899C4E50049B6B1 /* BeDazzledApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD682C9C2899C4E60049B6B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD682CA52899C4E60049B6B1 /* BeDazzledAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD682CA62899C4E60049B6B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD682CB12899C4E60049B6B1 /* BeDazzledAppUITestsLaunchTests.swift in Sources */,
+				BD682CAF2899C4E60049B6B1 /* BeDazzledAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD682CA22899C4E60049B6B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD682C862899C4E50049B6B1 /* BeDazzledApp */;
+			targetProxy = BD682CA12899C4E60049B6B1 /* PBXContainerItemProxy */;
+		};
+		BD682CAC2899C4E60049B6B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD682C862899C4E50049B6B1 /* BeDazzledApp */;
+			targetProxy = BD682CAB2899C4E60049B6B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD682C902899C4E50049B6B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD682C912899C4E50049B6B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD682C982899C4E60049B6B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD682C992899C4E60049B6B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD682CB22899C4E60049B6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD682CB32899C4E60049B6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD682CB52899C4E60049B6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeDazzledApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BeDazzledApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD682CB62899C4E60049B6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeDazzledApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BeDazzledApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD682CB82899C4E60049B6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BeDazzledAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeDazzledApp.app/BeDazzledApp";
+			};
+			name = Debug;
+		};
+		BD682CB92899C4E60049B6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BeDazzledAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeDazzledApp.app/BeDazzledApp";
+			};
+			name = Release;
+		};
+		BD682CBB2899C4E60049B6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BeDazzledAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeDazzledApp;
+			};
+			name = Debug;
+		};
+		BD682CBC2899C4E60049B6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BeDazzledAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeDazzledApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD682C822899C4E50049B6B1 /* Build configuration list for PBXProject "BeDazzledApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD682CB22899C4E60049B6B1 /* Debug */,
+				BD682CB32899C4E60049B6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD682CB42899C4E60049B6B1 /* Build configuration list for PBXNativeTarget "BeDazzledApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD682CB52899C4E60049B6B1 /* Debug */,
+				BD682CB62899C4E60049B6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD682CB72899C4E60049B6B1 /* Build configuration list for PBXNativeTarget "BeDazzledAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD682CB82899C4E60049B6B1 /* Debug */,
+				BD682CB92899C4E60049B6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD682CBA2899C4E60049B6B1 /* Build configuration list for PBXNativeTarget "BeDazzledAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD682CBB2899C4E60049B6B1 /* Debug */,
+				BD682CBC2899C4E60049B6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD682C932899C4E50049B6B1 /* BeDazzledApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD682C942899C4E50049B6B1 /* BeDazzledApp.xcdatamodel */,
+			);
+			currentVersion = BD682C942899C4E50049B6B1 /* BeDazzledApp.xcdatamodel */;
+			path = BeDazzledApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD682C7F2899C4E50049B6B1 /* Project object */;
+}
