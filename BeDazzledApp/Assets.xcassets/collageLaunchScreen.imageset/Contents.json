@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Blue Warm Brown Aesthetic Good Skin Care and Lifestyle Collage Your Story.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
