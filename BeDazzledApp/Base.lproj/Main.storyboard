@@ -33,89 +33,186 @@
             </objects>
             <point key="canvasLocation" x="-675" y="89"/>
         </scene>
-        <!--Seventh View Controller-->
-        <scene sceneID="R9F-gT-x4O">
+        <!--View Controller-->
+        <scene sceneID="5SS-8n-eFo">
             <objects>
-                <viewController id="UT6-Qm-xSj" customClass="SeventhViewController" customModule="BeDazzledApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lJL-P5-Sxt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                <viewController id="QeL-MS-slG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9ZW-Og-0wx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dyk-ia-GaP">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VIY-Qq-yDs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTs-FQ-StD">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w4u-fF-7Ft">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="aesthetic quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3g-m5-ch7">
-                                                <rect key="frame" x="154" y="60" width="107" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="what is your aesthetic? take this quick quiz to find out" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3g-m5-ch7">
+                                                <rect key="frame" x="68" y="41" width="279" height="108"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="26"/>
+                                                <color key="textColor" red="0.83420138889999995" green="0.3847844486" blue="0.59215530240000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0De-9u-r5f">
-                                                <rect key="frame" x="174" y="200" width="67" height="31"/>
+                                                <rect key="frame" x="39" y="286" width="337" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.81871448859999996" green="0.37764094770000001" blue="0.58116197359999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="a long green skirt paired with a brown sweater and sandals">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
+                                                </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puW-jf-MsO">
-                                                <rect key="frame" x="174" y="252" width="67" height="31"/>
+                                                <rect key="frame" x="16" y="384" width="390" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.81871448859999996" green="0.37764094770000001" blue="0.58116197359999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="platform docs with a leather jacket">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
+                                                </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3i1-gB-2QX">
-                                                <rect key="frame" x="174" y="323" width="67" height="31"/>
+                                                <rect key="frame" x="25" y="478" width="365" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.81871448859999996" green="0.37764094770000001" blue="0.58116197359999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="blsck  pants with a plain white long sleeve and some jewelry">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
+                                                </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rph-n7-PJR">
-                                                <rect key="frame" x="174" y="379" width="67" height="31"/>
+                                                <rect key="frame" x="20" y="555" width="375" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.81871448859999996" green="0.37764094770000001" blue="0.58116197359999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="low waisted jeans and a baby tee">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
+                                                </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEi-jF-eql">
-                                                <rect key="frame" x="174" y="449" width="67" height="31"/>
+                                                <rect key="frame" x="75" y="623" width="272" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.81871448863636365" green="0.37764094771138457" blue="0.58116197364820088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="floaral">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name="Damascus"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="skirt">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name="Damascus"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="with">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name="Damascus"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="a">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name="Damascus"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="white">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name="Damascus"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="or">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name="Damascus"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="yellow">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name="Damascus"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="blouse">
+                                                            <attributes>
+                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BRRR it's chilly outside, what do you wear?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GN7-Ph-437">
+                                                <rect key="frame" x="6" y="178" width="402" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="IcO-HC-lzp"/>
+                                            <constraint firstAttribute="height" constant="2000" id="57v-1o-Fh2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="RTs-FQ-StD" firstAttribute="top" secondItem="dyk-ia-GaP" secondAttribute="top" id="7Mb-sH-klI"/>
-                                    <constraint firstItem="RTs-FQ-StD" firstAttribute="leading" secondItem="dyk-ia-GaP" secondAttribute="leading" id="K2W-zr-CNX"/>
-                                    <constraint firstAttribute="trailing" secondItem="RTs-FQ-StD" secondAttribute="trailing" id="Xe5-xm-utg"/>
-                                    <constraint firstAttribute="bottom" secondItem="RTs-FQ-StD" secondAttribute="bottom" id="iah-XV-X8C"/>
+                                    <constraint firstItem="w4u-fF-7Ft" firstAttribute="leading" secondItem="VIY-Qq-yDs" secondAttribute="leading" id="9Nf-WW-0Xj"/>
+                                    <constraint firstAttribute="trailing" secondItem="w4u-fF-7Ft" secondAttribute="trailing" id="ePl-rz-M2G"/>
+                                    <constraint firstItem="w4u-fF-7Ft" firstAttribute="top" secondItem="VIY-Qq-yDs" secondAttribute="top" id="eeJ-rW-aHN"/>
+                                    <constraint firstAttribute="bottom" secondItem="w4u-fF-7Ft" secondAttribute="bottom" id="g2A-5b-vnd"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="TVf-Ac-i86"/>
+                        <viewLayoutGuide key="safeArea" id="jL5-SZ-bJQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dyk-ia-GaP" firstAttribute="bottom" secondItem="TVf-Ac-i86" secondAttribute="bottom" id="HHD-IC-wGv"/>
-                            <constraint firstItem="dyk-ia-GaP" firstAttribute="leading" secondItem="TVf-Ac-i86" secondAttribute="leading" id="Kwf-4z-nQe"/>
-                            <constraint firstItem="RTs-FQ-StD" firstAttribute="height" secondItem="lJL-P5-Sxt" secondAttribute="height" multiplier="2.3753" id="Rer-I5-g5l"/>
-                            <constraint firstItem="dyk-ia-GaP" firstAttribute="trailing" secondItem="TVf-Ac-i86" secondAttribute="trailing" id="pBq-mV-phw"/>
-                            <constraint firstItem="dyk-ia-GaP" firstAttribute="top" secondItem="lJL-P5-Sxt" secondAttribute="top" id="qsw-i9-ux1"/>
-                            <constraint firstItem="RTs-FQ-StD" firstAttribute="width" secondItem="lJL-P5-Sxt" secondAttribute="width" id="vyj-B0-cfl"/>
+                            <constraint firstItem="VIY-Qq-yDs" firstAttribute="leading" secondItem="jL5-SZ-bJQ" secondAttribute="leading" id="1wv-y8-75Y"/>
+                            <constraint firstItem="VIY-Qq-yDs" firstAttribute="top" secondItem="9ZW-Og-0wx" secondAttribute="top" id="7z2-cF-YFd"/>
+                            <constraint firstItem="w4u-fF-7Ft" firstAttribute="height" secondItem="9ZW-Og-0wx" secondAttribute="height" multiplier="2.23214" id="lY8-nn-v94"/>
+                            <constraint firstItem="w4u-fF-7Ft" firstAttribute="width" secondItem="9ZW-Og-0wx" secondAttribute="width" id="nOd-ca-pbf"/>
+                            <constraint firstAttribute="bottom" secondItem="VIY-Qq-yDs" secondAttribute="bottom" id="qBc-16-ajA"/>
+                            <constraint firstItem="VIY-Qq-yDs" firstAttribute="trailing" secondItem="jL5-SZ-bJQ" secondAttribute="trailing" id="tTI-dM-eFp"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="oXM-7I-4Ao"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LvO-8c-C8l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R6K-PM-999" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-594.20289855072474" y="805.58035714285711"/>
+            <point key="canvasLocation" x="-584.05797101449275" y="839.73214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -139,9 +236,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="take the quiz to BeMatched to an aesthetic"/>
-                                <connections>
-                                    <segue destination="UT6-Qm-xSj" kind="show" id="gCu-Or-YTP"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmS-O7-thv">
                                 <rect key="frame" x="175" y="217" width="157" height="31"/>
