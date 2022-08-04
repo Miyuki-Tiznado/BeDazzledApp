@@ -23,7 +23,9 @@
 		BD9CAB1F2899CD5C000F5088 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9CAB1E2899CD5C000F5088 /* FourthViewController.swift */; };
 		BD9CAB212899CD75000F5088 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9CAB202899CD75000F5088 /* FifthViewController.swift */; };
 		BD9CAB232899CD86000F5088 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9CAB222899CD86000F5088 /* SixthViewController.swift */; };
-		BD9CAB252899E1A1000F5088 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9CAB242899E1A1000F5088 /* SeventhViewController.swift */; };
+		BD9CAB67289C3939000F5088 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9CAB66289C3939000F5088 /* SeventhViewController.swift */; };
+		BD9CAB68289C3939000F5088 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9CAB66289C3939000F5088 /* SeventhViewController.swift */; };
+		BD9CAB69289C3939000F5088 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9CAB66289C3939000F5088 /* SeventhViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +66,7 @@
 		BD9CAB1E2899CD5C000F5088 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		BD9CAB202899CD75000F5088 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		BD9CAB222899CD86000F5088 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
-		BD9CAB242899E1A1000F5088 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
+		BD9CAB66289C3939000F5088 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +121,7 @@
 				BD682C8C2899C4E50049B6B1 /* SceneDelegate.swift */,
 				BD682C8E2899C4E50049B6B1 /* ViewController.swift */,
 				BD682C902899C4E50049B6B1 /* Main.storyboard */,
-				BD9CAB242899E1A1000F5088 /* SeventhViewController.swift */,
+				BD9CAB66289C3939000F5088 /* SeventhViewController.swift */,
 				BD9CAB222899CD86000F5088 /* SixthViewController.swift */,
 				BD9CAB202899CD75000F5088 /* FifthViewController.swift */,
 				BD9CAB1E2899CD5C000F5088 /* FourthViewController.swift */,
@@ -290,7 +292,7 @@
 				BD9CAB1F2899CD5C000F5088 /* FourthViewController.swift in Sources */,
 				BD9CAB192899CD20000F5088 /* FirstViewController.swift in Sources */,
 				BD682C8D2899C4E50049B6B1 /* SceneDelegate.swift in Sources */,
-				BD9CAB252899E1A1000F5088 /* SeventhViewController.swift in Sources */,
+				BD9CAB67289C3939000F5088 /* SeventhViewController.swift in Sources */,
 				BD682C952899C4E50049B6B1 /* BeDazzledApp.xcdatamodeld in Sources */,
 				BD9CAB232899CD86000F5088 /* SixthViewController.swift in Sources */,
 			);
@@ -300,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9CAB68289C3939000F5088 /* SeventhViewController.swift in Sources */,
 				BD682CA52899C4E60049B6B1 /* BeDazzledAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +313,7 @@
 			files = (
 				BD682CB12899C4E60049B6B1 /* BeDazzledAppUITestsLaunchTests.swift in Sources */,
 				BD682CAF2899C4E60049B6B1 /* BeDazzledAppUITests.swift in Sources */,
+				BD9CAB69289C3939000F5088 /* SeventhViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

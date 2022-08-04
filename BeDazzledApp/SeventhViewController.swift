@@ -2,7 +2,7 @@
 //  SeventhViewController.swift
 //  BeDazzledApp
 //
-//  Created by Scholar on 8/2/22.
+//  Created by Scholar on 8/4/22.
 //
 
 import UIKit
