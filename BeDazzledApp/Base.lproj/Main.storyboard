@@ -44,6 +44,9 @@
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="1" green="0.32469833479999999" blue="0.56402295449999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1a1:" destination="CWY-I4-jjv" eventType="touchUpInside" id="u5d-cC-m0D"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puW-jf-MsO">
                                                 <rect key="frame" x="27" y="346" width="363" height="40"/>
@@ -60,6 +63,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1a2:" destination="CWY-I4-jjv" eventType="touchUpInside" id="ksn-GI-bXD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3i1-gB-2QX">
                                                 <rect key="frame" x="21" y="437" width="365" height="44"/>
@@ -75,6 +81,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1a3:" destination="CWY-I4-jjv" eventType="touchUpInside" id="vmu-bp-5Ge"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rph-n7-PJR">
                                                 <rect key="frame" x="28" y="516" width="352" height="40"/>
@@ -90,6 +99,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1a4:" destination="CWY-I4-jjv" eventType="touchUpInside" id="Qv1-GS-ibg"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEi-jF-eql">
                                                 <rect key="frame" x="71" y="582" width="272" height="44"/>
@@ -105,6 +117,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q1a5:" destination="CWY-I4-jjv" eventType="touchUpInside" id="7be-FA-X4c"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BRRR it's chilly outside, what do you wear?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GN7-Ph-437">
                                                 <rect key="frame" x="20" y="157" width="370" height="84"/>
@@ -115,7 +130,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rg6-UD-q08">
-                                                <rect key="frame" x="-19" y="822" width="457" height="62"/>
+                                                <rect key="frame" x="-41" y="818" width="457" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
@@ -129,6 +144,9 @@
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="0.089392659530000002" green="0.32490924869999999" blue="0.1439613602" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2a1:" destination="CWY-I4-jjv" eventType="touchUpInside" id="0KQ-Sf-MKt"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfr-ro-zg1">
                                                 <rect key="frame" x="29" y="901" width="367" height="41"/>
@@ -144,6 +162,9 @@
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="0.089392659530000002" green="0.32490924869999999" blue="0.1439613602" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2a2:" destination="CWY-I4-jjv" eventType="touchUpInside" id="KLu-fm-wCH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egs-XO-HXT">
                                                 <rect key="frame" x="-23" y="1020" width="439" height="40"/>
@@ -159,6 +180,9 @@
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="0.089392659530000002" green="0.32490924869999999" blue="0.1439613602" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2a4:" destination="CWY-I4-jjv" eventType="touchUpInside" id="guW-UC-3cn"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNu-Yt-AWw">
                                                 <rect key="frame" x="19" y="673" width="358" height="113"/>
@@ -189,6 +213,9 @@
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="0.089392659529308555" green="0.3249092487373737" blue="0.14396136017467376" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2a3:" destination="CWY-I4-jjv" eventType="touchUpInside" id="IB2-in-ncH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hi-2q-q4e">
                                                 <rect key="frame" x="29" y="1077" width="360" height="42"/>
@@ -204,9 +231,12 @@
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="0.089392659530000002" green="0.32490924869999999" blue="0.1439613602" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q2a5:" destination="CWY-I4-jjv" eventType="touchUpInside" id="5S4-gZ-dr5"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dn7-gt-hx8">
-                                                <rect key="frame" x="129" y="1190" width="167" height="73"/>
+                                                <rect key="frame" x="115" y="1190" width="167" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.85746133209999997" green="0.68324012540000001" blue="0.84865993439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <attributedString key="attributedText">
@@ -220,79 +250,76 @@
                                                 <color key="highlightedColor" red="0.85746133209999997" green="0.68324012540000001" blue="0.84865993439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fct-7j-Wxg">
-                                                <rect key="frame" x="163" y="1349" width="76" height="46"/>
+                                                <rect key="frame" x="149" y="1349" width="90" height="46"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="June">
                                                             <attributes>
-                                                                <font key="NSFont" size="28" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="28"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="0.85746133209999997" green="0.68324012540000001" blue="0.84865993439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAX-fP-mCX">
-                                                <rect key="frame" x="166" y="1292" width="92" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="March">
-                                                            <attributes>
-                                                                <font key="NSFont" size="26" name=".SFNS-Regular"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                    <color key="baseForegroundColor" red="0.85746133209999997" green="0.68324012540000001" blue="0.84865993439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3a2:" destination="CWY-I4-jjv" eventType="touchUpInside" id="bUI-Sp-J1e"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKV-ma-jP1">
-                                                <rect key="frame" x="162" y="1411" width="97" height="42"/>
+                                                <rect key="frame" x="139" y="1411" width="120" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="August">
                                                             <attributes>
-                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="25"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="0.85746133209999997" green="0.68324012540000001" blue="0.84865993439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3a3:" destination="CWY-I4-jjv" eventType="touchUpInside" id="8N7-NA-B2w"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDb-cP-qbs">
-                                                <rect key="frame" x="158" y="1472" width="105" height="42"/>
+                                                <rect key="frame" x="129" y="1472" width="134" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="October">
                                                             <attributes>
-                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="25"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="0.85930334832462762" green="0.68644128919844372" blue="0.90922900883838387" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3a4:" destination="CWY-I4-jjv" eventType="touchUpInside" id="aQi-wX-LsJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGa-mk-0iB">
-                                                <rect key="frame" x="158" y="1544" width="127" height="42"/>
+                                                <rect key="frame" x="129" y="1544" width="156" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="December">
                                                             <attributes>
-                                                                <font key="NSFont" size="25" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="25"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
                                                     <color key="baseForegroundColor" red="0.85746133209999997" green="0.68324012540000001" blue="0.84865993439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3a5:" destination="CWY-I4-jjv" eventType="touchUpInside" id="hf6-nT-f5d"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NB-47-JPi">
                                                 <rect key="frame" x="117" y="1594" width="181" height="53"/>
@@ -302,7 +329,7 @@
                                                     <fragment content="Choose a fit: ">
                                                         <attributes>
                                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="29" name=".SFNS-Regular"/>
+                                                            <font key="NSFont" metaFont="system" size="29"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -663,6 +690,24 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAX-fP-mCX">
+                                                <rect key="frame" x="119" y="1298" width="158" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="March">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="26"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" red="0.85746133209999997" green="0.68324012540000001" blue="0.84865993439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="q3a1:" destination="CWY-I4-jjv" eventType="touchUpInside" id="sx7-fJ-Brv"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

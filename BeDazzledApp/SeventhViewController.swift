@@ -14,7 +14,49 @@ class SeventhViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func q1a1(_ sender: Any) {
+    }
     
+    @IBAction func q1a2(_ sender: Any) {
+    }
+    
+    @IBAction func q1a3(_ sender: Any) {
+    }
+    
+    @IBAction func q1a4(_ sender: Any) {
+    }
+    
+    
+    @IBAction func q1a5(_ sender: Any) {
+    }
+    
+    // second question answer choices
+    
+    @IBAction func q2a1(_ sender: Any) {
+    }
+    
+    @IBAction func q2a2(_ sender: Any) {
+    }
+    @IBAction func q2a3(_ sender: Any) {
+    }
+    @IBAction func q2a4(_ sender: Any) {
+    }
+    @IBAction func q2a5(_ sender: Any) {
+    }
+    
+    //third question answer choice
+    @IBAction func q3a1(_ sender: Any) {
+    }
+    @IBAction func q3a2(_ sender: Any) {
+    }
+    
+    @IBAction func q3a3(_ sender: Any) {
+    }
+    @IBAction func q3a4(_ sender: Any) {
+    }
+    
+    @IBAction func q3a5(_ sender: Any) {
+    }
 
     /*
     // MARK: - Navigation
