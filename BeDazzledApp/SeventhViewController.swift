@@ -190,24 +190,89 @@ class SeventhViewController: UIViewController {
     
     @IBAction func viewResult(_ sender: Any) {
         //conditionals for if one of the aesthetics is majority
-       if y2kCounter>=4 {
+       if y2kCounter>=2 {
            aestheticResult.text = "y2k"
        }
-       else if bohoCounter >= 4{
+       else if bohoCounter >= 2{
             aestheticResult.text = "boho"
         }
-       else if grungeCounter >= 4{
+       else if grungeCounter >= 2{
             aestheticResult.text = "grunge"
         }
-       else if minimalistCounter >= 4{
+       else if minimalistCounter >= 2{
             aestheticResult.text = "minimalist"
         }
-        else if ccCounter >= 4 {
+        else if ccCounter >= 2{
             aestheticResult.text = "cottage core"
         }
         else{
             aestheticResult.text = ""
         }
+        
+        //in case of a 2- way tie
+        if grungeCounter==y2kCounter{
+            aestheticResult.text = "grunge and y2k"
+        }
+        else if grungeCounter==bohoCounter{
+            aestheticResult.text = "grunge and boho"
+        }
+        else if grungeCounter==ccCounter{
+            aestheticResult.text = "grunge and cottage core"
+        }
+        else if grungeCounter==minimalistCounter{
+            aestheticResult.text = "grunge and minimalist"
+        }
+        else if y2kCounter==bohoCounter{
+            aestheticResult.text = "y2k and boho"
+        }
+        else if y2kCounter==ccCounter{
+            aestheticResult.text = "y2k and cottage core"
+        }
+        else if y2kCounter==minimalistCounter{
+            aestheticResult.text = "y2k and minimalist"
+        }
+        else if bohoCounter==minimalistCounter{
+            aestheticResult.text = "boho and minimalist"
+        }
+        else if ccCounter==minimalistCounter{
+            aestheticResult.text = "cottage core and minimalist"
+        }
+        else{
+            aestheticResult.text = ""
+        }
+        
+        //in case of a 3-way tie
+        if (grungeCounter==y2kCounter)&&(grungeCounter==bohoCounter){
+            aestheticResult.text = "Grunge, Y2k, AND Boho"
+        }
+        else if (grungeCounter==bohoCounter)&&(grungeCounter==ccCounter){
+            aestheticResult.text = "Grunge, boho, AND Cottage Core"
+        }
+        else if (grungeCounter==ccCounter)&&(grungeCounter==minimalistCounter){
+            aestheticResult.text = "Grunge, cottage core, AND Mininalist"
+        }
+        else if (y2kCounter==bohoCounter)&&(y2kCounter==ccCounter){
+            aestheticResult.text = "y2k, Boho, AND Cottage Core"
+        }
+        else if (y2kCounter==ccCounter)&&(y2kCounter==minimalistCounter){
+            aestheticResult.text = "y2k, cottage core, AND Minimalist"
+        }
+        else if (bohoCounter==ccCounter)&&(bohoCounter==minimalistCounter){
+            aestheticResult.text = "boho, Cottage Core, AND Minimalist"
+        }
+        else if (ccCounter==grungeCounter)&&(ccCounter==y2kCounter){
+            aestheticResult.text = "cottage core, grunge, AND y2k"
+        }
+        else if (minimalistCounter==grungeCounter)&&(minimalistCounter==y2kCounter){
+            aestheticResult.text = "minimalist, grunge, AND y2k"
+        }
+        else if (minimalistCounter==y2kCounter)&&(minimalistCounter==bohoCounter){
+            aestheticResult.text = "minimalist, y2k, AND boho"
+        }
+        
+        
+        
+        
     }
     
     

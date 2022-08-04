@@ -773,10 +773,10 @@
                                                 <color key="textColor" red="0.82269965277777779" green="0.40406784317842037" blue="0.53479475886731498" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="aesthetic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4d-eh-fKg">
-                                                <rect key="frame" x="123" y="3393" width="166" height="80"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="aesthetic" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4d-eh-fKg">
+                                                <rect key="frame" x="37" y="3393" width="349" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="50"/>
+                                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="29"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -891,12 +891,20 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1Z-1W-gzg">
                                 <rect key="frame" x="-62" y="-15" width="287" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Y2k">
+                                <buttonConfiguration key="configuration" style="tinted">
                                     <backgroundConfiguration key="background" cornerRadius="9" image="cbe65623c36ab4d1d635ee47d97cb0eb"/>
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="46"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Y2k">
+                                            <attributes>
+                                                <font key="NSFont" size="40" name=".SFNS-Regular"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="zoo-bQ-eeT" kind="presentation" modalPresentationStyle="fullScreen" id="rfb-l4-cq7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqn-2g-h11">
                                 <rect key="frame" x="212" y="-15" width="202" height="340"/>
@@ -908,6 +916,9 @@
                                     <backgroundConfiguration key="background" image="Screen Shot 2022-08-02 at 4.12.38 PM"/>
                                     <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="36"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="8il-eU-SYO" kind="presentation" modalPresentationStyle="fullScreen" id="SGP-JL-bJR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egi-cT-Ilk">
                                 <rect key="frame" x="-272" y="520" width="765" height="411"/>
@@ -918,6 +929,9 @@
                                     <backgroundConfiguration key="background" image="sza-good-days-video-youtube_1290_744 (1)"/>
                                     <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="48"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6bw-mI-dkd" kind="presentation" modalPresentationStyle="fullScreen" id="Bjh-bf-DZ5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqe-Na-6Qd">
                                 <rect key="frame" x="-17" y="286" width="221" height="325"/>
@@ -928,6 +942,9 @@
                                     <backgroundConfiguration key="background" image="Image from iOS"/>
                                     <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="48"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="egB-qw-Akx" kind="presentation" modalPresentationStyle="fullScreen" id="UPn-ti-43m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhI-u4-ALJ">
                                 <rect key="frame" x="185" y="286" width="229" height="331"/>
@@ -938,6 +955,9 @@
                                     <backgroundConfiguration key="background" image="hailey-bieber-levi-jeans"/>
                                     <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Mes-vb-x2T" kind="presentation" modalPresentationStyle="fullScreen" id="NzK-np-Vq5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VM8-Eh-OjX"/>
@@ -963,17 +983,24 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnA-LW-jDE">
-                                                <rect key="frame" x="8" y="52" width="86" height="49"/>
+                                                <rect key="frame" x="8" y="85" width="86" height="49"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="back"/>
+                                                <connections>
+                                                    <segue destination="Jdk-gw-Ztg" kind="presentation" modalPresentationStyle="fullScreen" id="85j-Rp-ZRS"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grunge" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STd-1A-icT">
-                                                <rect key="frame" x="89" y="35" width="236" height="83"/>
+                                                <rect key="frame" x="102" y="85" width="236" height="66"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="66"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grunge" translatesAutoresizingMaskIntoConstraints="NO" id="5pO-lk-10P">
+                                                <rect key="frame" x="0.0" y="142" width="414" height="126"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -999,6 +1026,11 @@
                             <constraint firstItem="Q5b-Up-UXb" firstAttribute="height" secondItem="JIk-wB-E6d" secondAttribute="height" multiplier="3.34821" id="dCO-V4-WjW"/>
                             <constraint firstItem="Q5b-Up-UXb" firstAttribute="width" secondItem="JIk-wB-E6d" secondAttribute="width" id="tRQ-fP-yv7"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="dCO-V4-WjW"/>
+                            </mask>
+                        </variation>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
@@ -1020,18 +1052,25 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUf-qE-nhN">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBP-5h-Ek9">
-                                                <rect key="frame" x="8" y="52" width="86" height="49"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minimalist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNy-lH-qCp">
+                                                <rect key="frame" x="118" y="31" width="179" height="57"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <buttonConfiguration key="configuration" style="gray" title="back"/>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minimalist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNy-lH-qCp">
-                                                <rect key="frame" x="102" y="52" width="226" height="59"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="minimalist" translatesAutoresizingMaskIntoConstraints="NO" id="By2-06-7Zu">
+                                                <rect key="frame" x="0.0" y="96" width="414" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBP-5h-Ek9">
+                                                <rect key="frame" x="8" y="39" width="86" height="49"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="back"/>
+                                                <connections>
+                                                    <segue destination="Jdk-gw-Ztg" kind="presentation" modalPresentationStyle="fullScreen" id="heH-ug-eto"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -1057,6 +1096,11 @@
                             <constraint firstItem="cUf-qE-nhN" firstAttribute="width" secondItem="bLB-V5-lrH" secondAttribute="width" id="c1d-Rc-Jvp"/>
                             <constraint firstItem="nFU-Pn-wqL" firstAttribute="trailing" secondItem="M4t-o3-VM9" secondAttribute="trailing" id="czI-Qb-Jba"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Z1B-y0-HtV"/>
+                            </mask>
+                        </variation>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
@@ -1079,17 +1123,24 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WK9-KJ-xdh">
-                                                <rect key="frame" x="8" y="52" width="86" height="49"/>
+                                                <rect key="frame" x="8" y="17" width="86" height="49"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="back"/>
+                                                <connections>
+                                                    <segue destination="Jdk-gw-Ztg" kind="presentation" modalPresentationStyle="fullScreen" id="XVl-fL-auQ"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Boho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Nx-cz-Tut">
-                                                <rect key="frame" x="128" y="52" width="158" height="77"/>
+                                                <rect key="frame" x="169" y="17" width="84" height="57"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="66"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boho" translatesAutoresizingMaskIntoConstraints="NO" id="j10-lO-Zpk">
+                                                <rect key="frame" x="0.0" y="74" width="414" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -1115,6 +1166,11 @@
                             <constraint firstItem="KNm-3A-12v" firstAttribute="height" secondItem="c9I-0b-hMf" secondAttribute="height" multiplier="3.34821" id="ieT-I7-1eH"/>
                             <constraint firstItem="pnC-gF-Qem" firstAttribute="top" secondItem="c9I-0b-hMf" secondAttribute="top" id="nqs-Sz-oH0"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ieT-I7-1eH"/>
+                            </mask>
+                        </variation>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
@@ -1137,17 +1193,24 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cottage Core" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Aw-Yn-DCl">
-                                                <rect key="frame" x="96" y="52" width="222" height="152"/>
+                                                <rect key="frame" x="86" y="25" width="287" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="56"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFz-fJ-YuQ">
-                                                <rect key="frame" x="8" y="76" width="86" height="49"/>
+                                                <rect key="frame" x="8" y="25" width="86" height="49"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="back"/>
+                                                <connections>
+                                                    <segue destination="Jdk-gw-Ztg" kind="presentation" modalPresentationStyle="fullScreen" id="C0O-5w-eBk"/>
+                                                </connections>
                                             </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cottagecore" translatesAutoresizingMaskIntoConstraints="NO" id="spM-aI-sdX">
+                                                <rect key="frame" x="0.0" y="68" width="414" height="161"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -1173,6 +1236,11 @@
                             <constraint firstAttribute="bottom" secondItem="lcZ-wc-PXP" secondAttribute="bottom" id="tVp-ww-VrF"/>
                             <constraint firstItem="lcZ-wc-PXP" firstAttribute="leading" secondItem="VAC-uy-3GL" secondAttribute="leading" id="vsH-4u-aK8"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="aRC-eR-Mrf"/>
+                            </mask>
+                        </variation>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
@@ -1195,17 +1263,24 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBx-Q4-TV1">
-                                                <rect key="frame" x="8" y="52" width="86" height="49"/>
+                                                <rect key="frame" x="8" y="18" width="86" height="49"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="back"/>
+                                                <connections>
+                                                    <segue destination="Jdk-gw-Ztg" kind="presentation" modalPresentationStyle="fullScreen" id="O9r-Sd-fZE"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Y2K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jL1-TH-JUV">
-                                                <rect key="frame" x="120" y="52" width="174" height="75"/>
+                                                <rect key="frame" x="120" y="18" width="174" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="66"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="y2k" translatesAutoresizingMaskIntoConstraints="NO" id="I7c-W5-TSz">
+                                                <rect key="frame" x="0.0" y="75" width="414" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -1231,6 +1306,11 @@
                             <constraint firstItem="8If-sG-Pb2" firstAttribute="top" secondItem="A8O-9r-qKJ" secondAttribute="top" id="dIa-Xa-IGg"/>
                             <constraint firstItem="8If-sG-Pb2" firstAttribute="trailing" secondItem="aOG-Dv-w6a" secondAttribute="trailing" id="zP4-10-1rx"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="StX-L8-StA"/>
+                            </mask>
+                        </variation>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
@@ -1379,13 +1459,13 @@
                                 <color key="textColor" red="0.695608428" green="0.28090529310000001" blue="0.19623332290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcy-5k-5vj">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lcy-5k-5vj" colorLabel="IBBuiltInLabel-Yellow">
                                 <rect key="frame" x="126" y="441" width="288" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.85490196080000003" green="0.83529411760000005" blue="0.74901960779999999" alpha="0.31092818709999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="1" green="0.97227032230640986" blue="0.88908128922563956" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="click here to begin">
                                             <attributes>
@@ -1394,7 +1474,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="qLJ-1m-I3i"/>
                                 </connections>
@@ -1409,17 +1489,29 @@
             <point key="canvasLocation" x="-775" y="75"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="O9r-Sd-fZE"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" systemColor="labelColor"/>
     <resources>
         <image name="Image from iOS" width="750" height="1096"/>
         <image name="Screen Shot 2022-08-02 at 4.12.38 PM" width="914" height="1438"/>
+        <image name="boho" width="2878" height="752"/>
         <image name="bohoFit" width="564" height="875"/>
         <image name="cbe65623c36ab4d1d635ee47d97cb0eb" width="640" height="880"/>
         <image name="ccFit" width="675" height="1200"/>
         <image name="collageLaunchScreen" width="1080" height="1920"/>
+        <image name="cottagecore" width="2878" height="752"/>
+        <image name="grunge" width="2878" height="752"/>
         <image name="grungeFit" width="662" height="740"/>
         <image name="hailey-bieber-levi-jeans" width="426" height="540"/>
+        <image name="minimalist" width="2878" height="752"/>
         <image name="sza-good-days-video-youtube_1290_744 (1)" width="1290" height="744"/>
+        <image name="y2k" width="2878" height="752"/>
         <image name="y2kFit" width="564" height="1001"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
